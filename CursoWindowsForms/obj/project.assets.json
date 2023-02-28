@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CursoWindowsForms\\CursoWindowsForms.csproj",
+      "projectUniqueName": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CSharp_Forms\\CursoWindowsForms\\CursoWindowsForms.csproj",
       "projectName": "CursoWindowsForms",
-      "projectPath": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CursoWindowsForms\\CursoWindowsForms.csproj",
+      "projectPath": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CSharp_Forms\\CursoWindowsForms\\CursoWindowsForms.csproj",
       "packagesPath": "C:\\Users\\igor.afonso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CursoWindowsForms\\obj\\",
+      "outputPath": "C:\\Users\\igor.afonso\\Desktop\\Windows Forms\\Curso\\CSharp_Forms\\CSharp_Forms\\CursoWindowsForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\igor.afonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
