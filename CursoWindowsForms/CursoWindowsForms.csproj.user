@@ -10,6 +10,9 @@
     <Compile Update="Frm_Mascara.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frm_ValidaCPF.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frm_ValidaSenha.cs">
       <SubType>Form</SubType>
     </Compile>
