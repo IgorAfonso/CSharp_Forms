@@ -13,6 +13,9 @@
     <Compile Update="Frm_ValidaCPF.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frm_ValidaCPF_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frm_ValidaSenha.cs">
       <SubType>Form</SubType>
     </Compile>

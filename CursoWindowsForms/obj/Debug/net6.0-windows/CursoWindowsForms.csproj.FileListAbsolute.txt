@@ -54,3 +54,4 @@ C:\Users\igor.afonso\Desktop\Windows Forms\Curso\CSharp_Forms\CSharp_Forms\Curso
 C:\Users\igor.afonso\Desktop\Windows Forms\Curso\CSharp_Forms\CSharp_Forms\CursoWindowsForms\obj\Debug\net6.0-windows\ref\CursoWindowsForms.dll
 C:\Users\igor.afonso\Desktop\Windows Forms\Curso\CSharp_Forms\CSharp_Forms\CursoWindowsForms\obj\Debug\net6.0-windows\CursoWindowsForms.Frm_Mascara.resources
 C:\Users\igor.afonso\Desktop\Windows Forms\Curso\CSharp_Forms\CSharp_Forms\CursoWindowsForms\obj\Debug\net6.0-windows\CursoWindowsForms.Frm_ValidaCPF.resources
+C:\Users\igor.afonso\Desktop\Windows Forms\Curso\CSharp_Forms\CSharp_Forms\CursoWindowsForms\obj\Debug\net6.0-windows\CursoWindowsForms.Frm_ValidaCPF_2.resources
