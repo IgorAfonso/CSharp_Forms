@@ -25,20 +25,20 @@ namespace CursoWindowsForms
             vConteudo = vConteudo.Replace(".", "").Replace("-", "");
             vConteudo = vConteudo.Trim();
 
-            if(vConteudo == "") 
+            if (vConteudo == "")
             {
                 MessageBox.Show("Você deve digitar um CPF", "Mensagem de validação",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else 
+            else
             {
 
-                if(vConteudo.Length != 11)
+                if (vConteudo.Length != 11)
                 {
-                    MessageBox.Show("CPF deve ter 11 dígitos", "Mensagem de validação", 
+                    MessageBox.Show("CPF deve ter 11 dígitos", "Mensagem de validação",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                } 
-                else 
+                }
+                else
                 {
                     if (MessageBox.Show("Você deseja realmente validar o CPF?",
                "Mensagem de Validação", MessageBoxButtons.YesNo,

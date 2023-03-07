@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ValidaCPF));
             Msk_CPF = new MaskedTextBox();
             Lbl_Resultado = new Label();
             Btn_Reset = new Button();
@@ -36,29 +37,26 @@
             // 
             // Msk_CPF
             // 
-            Msk_CPF.Location = new Point(17, 75);
-            Msk_CPF.Margin = new Padding(4, 5, 4, 5);
+            Msk_CPF.Location = new Point(12, 45);
             Msk_CPF.Mask = "000,000,000-00";
             Msk_CPF.Name = "Msk_CPF";
-            Msk_CPF.Size = new Size(310, 31);
+            Msk_CPF.Size = new Size(218, 23);
             Msk_CPF.TabIndex = 0;
             // 
             // Lbl_Resultado
             // 
             Lbl_Resultado.AutoSize = true;
             Lbl_Resultado.Font = new Font("Arial Narrow", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            Lbl_Resultado.Location = new Point(17, 150);
-            Lbl_Resultado.Margin = new Padding(4, 0, 4, 0);
+            Lbl_Resultado.Location = new Point(12, 90);
             Lbl_Resultado.Name = "Lbl_Resultado";
-            Lbl_Resultado.Size = new Size(0, 33);
+            Lbl_Resultado.Size = new Size(0, 23);
             Lbl_Resultado.TabIndex = 1;
             // 
             // Btn_Reset
             // 
-            Btn_Reset.Location = new Point(350, 70);
-            Btn_Reset.Margin = new Padding(4, 5, 4, 5);
+            Btn_Reset.Location = new Point(245, 42);
             Btn_Reset.Name = "Btn_Reset";
-            Btn_Reset.Size = new Size(159, 38);
+            Btn_Reset.Size = new Size(111, 23);
             Btn_Reset.TabIndex = 2;
             Btn_Reset.Text = "Limpa";
             Btn_Reset.UseVisualStyleBackColor = true;
@@ -66,10 +64,9 @@
             // 
             // Btn_Valida
             // 
-            Btn_Valida.Location = new Point(350, 118);
-            Btn_Valida.Margin = new Padding(4, 5, 4, 5);
+            Btn_Valida.Location = new Point(245, 71);
             Btn_Valida.Name = "Btn_Valida";
-            Btn_Valida.Size = new Size(159, 38);
+            Btn_Valida.Size = new Size(111, 23);
             Btn_Valida.TabIndex = 3;
             Btn_Valida.Text = "Valida";
             Btn_Valida.UseVisualStyleBackColor = true;
@@ -77,14 +74,14 @@
             // 
             // Frm_ValidaCPF
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(526, 257);
+            ClientSize = new Size(368, 154);
             Controls.Add(Btn_Valida);
             Controls.Add(Btn_Reset);
             Controls.Add(Lbl_Resultado);
             Controls.Add(Msk_CPF);
-            Margin = new Padding(4, 5, 4, 5);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Frm_ValidaCPF";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Validação CPF";

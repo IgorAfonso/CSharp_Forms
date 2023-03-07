@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_Titulo = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_HelloWorld));
+            lbl_Titulo = new Label();
+            SuspendLayout();
             // 
             // lbl_Titulo
             // 
-            this.lbl_Titulo.AutoSize = true;
-            this.lbl_Titulo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Titulo.Location = new System.Drawing.Point(30, 30);
-            this.lbl_Titulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(213, 19);
-            this.lbl_Titulo.TabIndex = 0;
-            this.lbl_Titulo.Text = "Visual Studio .NET Version";
+            lbl_Titulo.AutoSize = true;
+            lbl_Titulo.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbl_Titulo.Location = new Point(30, 30);
+            lbl_Titulo.Margin = new Padding(2, 0, 2, 0);
+            lbl_Titulo.Name = "lbl_Titulo";
+            lbl_Titulo.Size = new Size(213, 19);
+            lbl_Titulo.TabIndex = 0;
+            lbl_Titulo.Text = "Visual Studio .NET Version";
             // 
             // Frm_HelloWorld
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 312);
-            this.Controls.Add(this.lbl_Titulo);
-            this.Name = "Frm_HelloWorld";
-            this.Text = "HelloWorld";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(359, 312);
+            Controls.Add(lbl_Titulo);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "Frm_HelloWorld";
+            Text = "HelloWorld";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

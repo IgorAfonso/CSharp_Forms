@@ -27,7 +27,7 @@ namespace CursoWindowsForms
         {
             bool result;
             result = Cls_Uteis.Valida(Msk_CPF.Text);
-            
+
             if (result == true)
             {
                 Lbl_Resultado.Text = "CPF Válido";

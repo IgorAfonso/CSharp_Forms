@@ -64,7 +64,7 @@ namespace CursoWindowsForms
 
         private void Btn_Senha_Click(object sender, EventArgs e)
         {
-            Msk_TextBox.UseSystemPasswordChar= true;
+            Msk_TextBox.UseSystemPasswordChar = true;
             Lbl_Conteudo.Text = "";
             Msk_TextBox.Mask = "000000";
             Lbl_MascaraAtiva.Text = Msk_TextBox.Mask;

@@ -28,103 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Txt_Input = new System.Windows.Forms.TextBox();
-            this.Txt_Msg = new System.Windows.Forms.TextBox();
-            this.Btn_Reset = new System.Windows.Forms.Button();
-            this.Lbl_Minus = new System.Windows.Forms.Label();
-            this.Lbl_Maius = new System.Windows.Forms.Label();
-            this.Lbl_Upper = new System.Windows.Forms.Label();
-            this.Lbl_Lower = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_DemonstracaoKey));
+            Txt_Input = new TextBox();
+            Txt_Msg = new TextBox();
+            Btn_Reset = new Button();
+            Lbl_Minus = new Label();
+            Lbl_Maius = new Label();
+            Lbl_Upper = new Label();
+            Lbl_Lower = new Label();
+            SuspendLayout();
             // 
             // Txt_Input
             // 
-            this.Txt_Input.Location = new System.Drawing.Point(8, 8);
-            this.Txt_Input.Margin = new System.Windows.Forms.Padding(2);
-            this.Txt_Input.Name = "Txt_Input";
-            this.Txt_Input.Size = new System.Drawing.Size(100, 23);
-            this.Txt_Input.TabIndex = 0;
-            this.Txt_Input.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Input_KeyDown);
+            Txt_Input.Location = new Point(8, 8);
+            Txt_Input.Margin = new Padding(2);
+            Txt_Input.Name = "Txt_Input";
+            Txt_Input.Size = new Size(100, 23);
+            Txt_Input.TabIndex = 0;
+            Txt_Input.KeyDown += Txt_Input_KeyDown;
             // 
             // Txt_Msg
             // 
-            this.Txt_Msg.Location = new System.Drawing.Point(8, 40);
-            this.Txt_Msg.Margin = new System.Windows.Forms.Padding(2);
-            this.Txt_Msg.Multiline = true;
-            this.Txt_Msg.Name = "Txt_Msg";
-            this.Txt_Msg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Txt_Msg.Size = new System.Drawing.Size(304, 232);
-            this.Txt_Msg.TabIndex = 1;
-            this.Txt_Msg.TabStop = false;
+            Txt_Msg.Location = new Point(8, 40);
+            Txt_Msg.Margin = new Padding(2);
+            Txt_Msg.Multiline = true;
+            Txt_Msg.Name = "Txt_Msg";
+            Txt_Msg.ScrollBars = ScrollBars.Vertical;
+            Txt_Msg.Size = new Size(304, 232);
+            Txt_Msg.TabIndex = 1;
+            Txt_Msg.TabStop = false;
             // 
             // Btn_Reset
             // 
-            this.Btn_Reset.Location = new System.Drawing.Point(328, 8);
-            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_Reset.Name = "Btn_Reset";
-            this.Btn_Reset.Size = new System.Drawing.Size(75, 28);
-            this.Btn_Reset.TabIndex = 2;
-            this.Btn_Reset.Text = "Limpa";
-            this.Btn_Reset.UseVisualStyleBackColor = true;
-            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
+            Btn_Reset.Location = new Point(328, 8);
+            Btn_Reset.Margin = new Padding(2);
+            Btn_Reset.Name = "Btn_Reset";
+            Btn_Reset.Size = new Size(75, 28);
+            Btn_Reset.TabIndex = 2;
+            Btn_Reset.Text = "Limpa";
+            Btn_Reset.UseVisualStyleBackColor = true;
+            Btn_Reset.Click += Btn_Reset_Click;
             // 
             // Lbl_Minus
             // 
-            this.Lbl_Minus.AutoSize = true;
-            this.Lbl_Minus.Location = new System.Drawing.Point(320, 104);
-            this.Lbl_Minus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Lbl_Minus.Name = "Lbl_Minus";
-            this.Lbl_Minus.Size = new System.Drawing.Size(43, 15);
-            this.Lbl_Minus.TabIndex = 3;
-            this.Lbl_Minus.Text = "Minus.";
+            Lbl_Minus.AutoSize = true;
+            Lbl_Minus.Location = new Point(320, 104);
+            Lbl_Minus.Margin = new Padding(2, 0, 2, 0);
+            Lbl_Minus.Name = "Lbl_Minus";
+            Lbl_Minus.Size = new Size(43, 15);
+            Lbl_Minus.TabIndex = 3;
+            Lbl_Minus.Text = "Minus.";
             // 
             // Lbl_Maius
             // 
-            this.Lbl_Maius.AutoSize = true;
-            this.Lbl_Maius.Location = new System.Drawing.Point(320, 56);
-            this.Lbl_Maius.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Lbl_Maius.Name = "Lbl_Maius";
-            this.Lbl_Maius.Size = new System.Drawing.Size(39, 15);
-            this.Lbl_Maius.TabIndex = 4;
-            this.Lbl_Maius.Text = "Maius";
+            Lbl_Maius.AutoSize = true;
+            Lbl_Maius.Location = new Point(320, 56);
+            Lbl_Maius.Margin = new Padding(2, 0, 2, 0);
+            Lbl_Maius.Name = "Lbl_Maius";
+            Lbl_Maius.Size = new Size(39, 15);
+            Lbl_Maius.TabIndex = 4;
+            Lbl_Maius.Text = "Maius";
             // 
             // Lbl_Upper
             // 
-            this.Lbl_Upper.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_Upper.Location = new System.Drawing.Point(368, 56);
-            this.Lbl_Upper.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Lbl_Upper.Name = "Lbl_Upper";
-            this.Lbl_Upper.Size = new System.Drawing.Size(32, 23);
-            this.Lbl_Upper.TabIndex = 5;
+            Lbl_Upper.BorderStyle = BorderStyle.Fixed3D;
+            Lbl_Upper.Location = new Point(368, 56);
+            Lbl_Upper.Margin = new Padding(2, 0, 2, 0);
+            Lbl_Upper.Name = "Lbl_Upper";
+            Lbl_Upper.Size = new Size(32, 23);
+            Lbl_Upper.TabIndex = 5;
             // 
             // Lbl_Lower
             // 
-            this.Lbl_Lower.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Lbl_Lower.Location = new System.Drawing.Point(368, 104);
-            this.Lbl_Lower.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.Lbl_Lower.Name = "Lbl_Lower";
-            this.Lbl_Lower.Size = new System.Drawing.Size(32, 23);
-            this.Lbl_Lower.TabIndex = 6;
+            Lbl_Lower.BorderStyle = BorderStyle.Fixed3D;
+            Lbl_Lower.Location = new Point(368, 104);
+            Lbl_Lower.Margin = new Padding(2, 0, 2, 0);
+            Lbl_Lower.Name = "Lbl_Lower";
+            Lbl_Lower.Size = new Size(32, 23);
+            Lbl_Lower.TabIndex = 6;
             // 
             // Frm_DemonstracaoKey
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 281);
-            this.Controls.Add(this.Lbl_Lower);
-            this.Controls.Add(this.Lbl_Upper);
-            this.Controls.Add(this.Lbl_Maius);
-            this.Controls.Add(this.Lbl_Minus);
-            this.Controls.Add(this.Btn_Reset);
-            this.Controls.Add(this.Txt_Msg);
-            this.Controls.Add(this.Txt_Input);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Frm_DemonstracaoKey";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Demonstração Evento Key";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(409, 281);
+            Controls.Add(Lbl_Lower);
+            Controls.Add(Lbl_Upper);
+            Controls.Add(Lbl_Maius);
+            Controls.Add(Lbl_Minus);
+            Controls.Add(Btn_Reset);
+            Controls.Add(Txt_Msg);
+            Controls.Add(Txt_Input);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
+            Name = "Frm_DemonstracaoKey";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Demonstração Evento Key";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
